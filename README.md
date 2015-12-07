@@ -1,4 +1,4 @@
-# Network Programming with Go
+# [Network Programming with Go](https://jan.newmarch.name/go/)
 
 An e-book on building network applications using the Google Go programming language (Golang)
 
