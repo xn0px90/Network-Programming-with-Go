@@ -30,7 +30,7 @@ One of the possible messages that a client can send is the `"HEAD"` message. Thi
 
 ```"HEAD / HTTP/1.0\r\n\r\n"```
  
-which asks for information about the root document and the server. A typical response might be
+which asks for information about the root document on the server. A typical response might be
 
 ```
 HTTP/1.0 200 OK
