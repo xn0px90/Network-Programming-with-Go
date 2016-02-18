@@ -98,7 +98,7 @@
    * [Handling Timeouts](networkchannels/handling_timeouts.md)
    * [Channels of channels](networkchannels/channels_of_channels.md)
 * [Web sockets](websockets/README.md)
-   * [Web socket server](web_socket_server.md)
+   * [Web socket server](websockets/web_socket_server.md)
    * [The Message object](the_message_object.md)
    * [The JSON object](the_json_object.md)
    * [The Codec type](the_codec_type.md)
