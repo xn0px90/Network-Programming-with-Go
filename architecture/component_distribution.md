@@ -6,7 +6,7 @@ A simple but effective way of decomposing many applications is to consider them 
 * Application logic
 * Data access 
 
-The *presentation component* is responsible for interactions with the user, both displaying data and gathering input. it may be a modern GUI interface with buttons, lists, menus, etc., or an older command-line style interface, asking questions and getting answers. The details are not important at this level.
+The *presentation component* is responsible for interactions with the user, both displaying data and gathering input. It may be a modern GUI interface with buttons, lists, menus, etc., or an older command-line style interface, asking questions and getting answers. The details are not important at this level.
 
 The *application logic* is responsible for interpreting the users' responses, for applying business rules, for preparing queries and managing responses from the their component.
 
