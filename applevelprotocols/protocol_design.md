@@ -15,6 +15,6 @@
 * Is your communication bursty or steady stream?
   Ethernet and the Internet are best at bursty traffic. Steady stream is needed for video streams and particularly for voice. If required, how do you manage Quality of Service (QoS)?
 * Are there multiple streams with synchronisation required?
-  Does the data need to be synchronised with anything? e.g. video and voice.
+  Does the data need to be synchronised with anything, e.g. video and voice?
 * Are you building a standalone application or a library to be used by others?
   The standards of documentation required might vary. 
