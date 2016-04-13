@@ -281,7 +281,7 @@ func handleClient(conn net.Conn) {
 
 	var buf [512]byte
 	for {
-		// read upto 512 bytes
+		// read up to 512 bytes
 		n, err := conn.Read(buf[0:])
 		if err != nil {
 			return
