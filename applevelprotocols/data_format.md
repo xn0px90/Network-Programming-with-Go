@@ -10,7 +10,7 @@ In the byte format
 * The message handler would examine this first byte to distinguish message type and then perform a switch to select the appropriate handler for that type.
 * Further bytes in the message would contain message content according to a pre-defined format (as discussed in the previous chapter).
 
-The advantages are compactness and hence speed. The disadvantages are caused by the opaqueness of the data: it may be harder to spot errors, harder to debug, require special purpose decoding functions. There are many examples of byte-encoded formats, including major protocols such as DNS and NFS , upto recent ones such as Skype. Of course, if your protocol is not publicly specified, then a byte format can also make it harder for others to reverse-engineer it!
+The advantages are compactness and hence speed. The disadvantages are caused by the opaqueness of the data: it may be harder to spot errors, harder to debug, require special purpose decoding functions. There are many examples of byte-encoded formats, including major protocols such as DNS and NFS, upto recent ones such as Skype. Of course, if your protocol is not publicly specified, then a byte format can also make it harder for others to reverse-engineer it!
 
 Pseudocode for a byte-format server is
 

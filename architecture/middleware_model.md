@@ -37,7 +37,7 @@ The functions of middleware include
 * Initiation of processes at different computers
 * Session management
 * Directory services to allow clients to locate servers
-* remote data access
+* Remote data access
 * Concurrency control to allow servers to handle multiple clients
 * Security and integrity
 * Monitoring
